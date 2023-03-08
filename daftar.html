@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruke Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">   
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="gambar/logo.png" alt="">
+            <a href="#">ruke<span>coffee.</span></a>
+        </div>
+        <div class="navbar-nav">
+            <a href="index.html">Beranda</a>
+            <a href="profile.html">Tentang Kami</a>
+            <a href="menu.html">Menu</a>
+            <a href="daftar.html">Daftar</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <div class="judul">
+        <h2>RUKE <span>COFFESE</span> RESERVASI</h2>
+    </div>
+    <div class="pendaftaran">
+        <main class="content">
+            <h1>RESERVASI</h1>
+            <div class="row">
+                <form action="">
+                    <div class="input-group">
+                        <i data-feather="user"></i>
+                        <input type="text" placeholder="Masukkan nama">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="mail"></i>
+                        <input type="email" placeholder="Masukkan E-Mail">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="phone"></i>
+                        <input type="tel" placeholder="Masukkan nomor hp">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="calendar"></i>
+                        <input type="date">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="clock"></i>
+                        <input type="time">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="home"></i>
+                        <label for="room">ROOM</label>
+                        <label for="room">VIP</label>
+                        <input type="radio" name="room" id="room">
+                        <label for="room">Reguler</label>
+                        <input type="radio" name="room" id="room">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="monitor"></i>
+                        <label for="fasilitas">fasilitas</label>
+                        <label for="fasilitas">Proyektor</label>
+                        <input type="checkbox" name="fasilitas" id="fasilitas">
+                        <label for="fasilitas">Monitor</label>
+                        <input type="checkbox" name="fasilitas" id="fasilitas">
+                        <label for="fasilitas">Sound</label>
+                        <input type="checkbox" name="fasilitas" id="fasilitas">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="layers"></i>
+                        <label>Floor</label>
+                        <select>
+                            <option value="1">Lantai 1</option>
+                            <option value="2">Lantai 2</option>
+                            <option value="3">Lantai 3</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="camera"></i>
+                        <label for="foto">Masukkan foto anda</label>
+                        <input type="file" placeholder="foto">
+                    </div>
+                    <a href="daftar.html" class="btn">Submit</a>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/ruke.coffee/"><i  data-feather="instagram"></i></a>
+            <a href="https://www.facebook.com/rukecoffeestory"><i  data-feather="facebook"></i></a>
+            <a href="#"><i  data-feather="youtube"></i></a>
+        </div>
+        <div class="links">
+            <a href="index.html">Beranda</a>
+            <a href="profile.html">Tentang Kami</a>
+            <a href="menu.html">Menu</a>
+            <a href="daftar.html">Daftar</a>
+        </div>
+        <div class="credit">
+            <p>created by <a href="#">Windy Widyastutik</a> | &copy; 2023</p>
+        </div>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
